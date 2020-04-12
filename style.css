@@ -1,0 +1,428 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+}
+
+.top-header{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	left: 16%;
+	z-index: 1;
+	position: fixed;
+}
+.top-header:hover,
+.top-header:focus{
+	width: 100%;
+	position: fixed;
+	left: 0;
+    background-color: black;
+    transition: 0.9s;
+    z-index: 1;
+}
+.logo a{
+	font-size: 28px;
+	text-decoration: none;
+	font-style: italic;
+	font-family: 'Lobster', cursive;
+	color: #fed136;
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+	padding: 30px 10px;
+}
+.menu ul li {
+	padding-right: 25px;
+}
+.menu ul li a {
+	font-size: 15px;
+	text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu ul li a:hover{
+	color: #fed136;
+}
+.banner{
+	background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:920px;
+	position: relative;
+	margin-top: -155px;
+}
+.text-banner{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 48%;
+	color: white;
+}
+.text-banner h2{
+    font-size: 45px;
+    font-style: italic ;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 25px;
+}
+.text-banner h1{
+	font-size: 80px;
+	font-family: 'Anton', sans-serif;
+	padding-bottom: 30px;
+}
+.btn-banner{
+	padding: 25px 50px;
+	border-radius: 5px;
+	background: #fed136;
+	border: 1px solid #fed136;
+}
+.btn-banner a {
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+}
+.btn-banner:hover{
+	background: #DF7401;
+	transition: 0.5s;
+}
+.title{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 90px 0px; 
+}
+.title1 {
+	font-style: 40px;
+	font-family: 'Anton', sans-serif;
+	color: #212529;
+	padding-bottom: 15px;
+}
+.title-p {
+	color: #7d858c;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.row-ser{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.intro-col-4{
+	width: calc(100% / 3 - 20px);
+	margin-bottom: 50px;
+}
+.icon-intro i{
+		border-radius: 50%;
+		background: #fed136;
+		font-size: 80px;
+		color: white;
+		padding: 25px;
+}
+.test-intro h2{
+	padding: 15px;
+	color: #212529;
+	font-size: 24px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+}
+.test-intro p {
+	color: #6e777f;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.portfolio{
+	background: #E0F8EA;
+	padding-bottom: 100px;
+}
+.title{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+.intro-por{
+	padding-top:70px;
+}
+.row-por{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.product{
+	position: relative;
+	overflow: hidden;
+
+}
+.product img {
+  padding-bottom: 60px;
+}
+.about-por{
+	position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.icon-por{
+	display: flex;
+	flex: 1;
+	background: #fed136;
+	cursor: pointer;
+	opacity: 0;
+}
+.icon-por i {
+	margin: auto;
+	font-size: 50px;
+	color: white;
+	transition: ease-in 250ms;	
+}
+.text-por{
+	text-align: center;
+	background: white;
+	padding-top: 20px;
+}
+
+.icon-por:hover{
+	opacity: 0.8;
+	transition: 0.6s;
+}
+.text-por h1 {
+	font-size: 24px;
+	color: #212529;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+}
+.intro-abo{
+	width: 100%;
+	margin: 0 auto;
+}
+.row-abo{
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+
+.abo-img{
+	text-align: left;
+	float: right;
+	width: 63%;
+	padding-left: 40px;
+}
+.abo-img img {
+	border-radius: 50%;
+	border: 5px solid #abaa9e;
+
+}
+.abo-text{
+	width: 37%;
+	text-align: right;
+}
+.inline{
+	width: 1px;
+	margin: -40px auto;
+	background: #abaa9e;
+	height: 250px;
+}
+.abo-img2{
+	text-align: right;
+	float: left;
+	width: 63%;
+	padding-right: 40px;
+}
+.abo-text2{
+	width: 37%;
+	float: left;
+	text-align: left;
+}
+.abo-img2 img {
+	border-radius: 50%;
+	border: 5px solid #abaa9e;
+
+}
+.inline1{
+
+	width: 1px;
+	margin: auto;
+	background: #abaa9e;
+	height: 350px;
+}
+.abo-text-img{
+	width: 18%;
+	margin: auto;
+	background: #fed139;
+	border-radius: 50%;
+	text-align: center;
+	padding: 30px 0px;
+	color: white;
+	border: 5px solid #abaa9e;
+}
+.about{
+	padding-bottom: 150px;
+}
+.amazing{
+	background: #E0F8EA;
+	padding-bottom: 150px;
+}
+.row-ama{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.img-intro img{
+	border-radius: 50%;
+	border: 8px solid #abaa9e;
+}
+.icon-ama{
+	width: 60%;
+	margin: auto;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.icon-ama a{
+	padding: 13px;
+	background: #212529;
+	color: white;
+	border-radius: 50%;
+}
+.icon-ama i{
+	font-size: 24px;
+}
+.icon-ama .fa-facebook{
+	padding: 0 6px;
+}
+
+.icon-ama a:hover{
+	background: #fed136;
+}
+.text-ama-col12{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+.all-logo{
+	padding: 50px 0px;
+}
+.row-logo{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.contact{
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+	height:700px;
+	background-color: black;
+}
+.contact h1{
+	color: white;
+	font-size: 40px;
+}
+.row-cont{
+	width: 70%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.cont-col-6{
+	width: 100%;
+
+}
+input[type=text]{
+	width: 95%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color:black;
+}
+input[type=text]:focus{
+	outline: 2px solid #fed136;
+	 border-radius: 5px;
+}
+input[type=comment]{
+	width: 95%;
+    padding: 20px 20px;
+    margin: 7px 0;
+    height: 235px;
+    border-radius: 5px;
+    font-size: 18px;
+    color:black;
+}
+.cont-col-12{
+   width: 100%;
+   padding: 30px;
+}
+.footer{
+	width: 100%;
+	margin: 0 auto;
+	height: 100px;
+}
+.copyright{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	margin:  auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.foot-col-4{
+	width: calc(100% / 3 - 30px);
+	text-align: center;
+}
+.copyright h3{
+	font-size: 15px;
+	color: #4d5658;
+	font-weight: normal;
+}
+.foot-icon i{
+	font-size: 22px;
+	padding: 13px 17px;
+	background: #212529;
+	border-radius: 50%;
+}
+.foot-icon a{
+   color: white;
+   padding-left: 10px;
+   text-decoration: none;
+}
+.foot-icon i:hover{
+	background: #fed136;
+}
+.privacy {
+	text-align: right;
+}
+.privacy a{
+	text-decoration: none;
+	color: #fed136;
+	padding-left: 5px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.privacy a:hover{
+  	text-decoration: underline;
+}
